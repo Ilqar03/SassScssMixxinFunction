@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+nav .nav_logo h1 {
+  font-size: 30px;
+}
+nav .nav_menu ul {
+  display: flex;
+}
+nav .nav_menu ul li {
+  margin-left: 30px;
+  list-style: none;
+  margin-top: 10px;
+}
+nav .nav_menu ul li a {
+  font-size: 20px;
+  color: rgb(209, 12, 12);
+  text-decoration: none;
+}
+
+.shop {
+  background-color: rgb(26, 24, 24);
+  height: 250px;
+}
+.shop .shop_text {
+  text-align: center;
+  padding-top: 60px;
+  color: aliceblue;
+}
+.shop .shop_text h2 {
+  font-size: 60px;
+}
+.shop .shop_text p {
+  font-size: 20px;
+  color: gray;
+}
+
+.cards {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.cards .card_element {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 90px;
+  border: 1px solid rgb(214, 211, 211);
+  border-radius: 7px;
+}
+.cards .card_element .card_element_img img {
+  width: 268px;
+  height: 180px;
+  border-radius: 7px 7px 0 0;
+}
+.cards .card_element .card_icon {
+  display: flex;
+}
+.cards .card_element .card_icon i {
+  color: rgb(255, 196, 1);
+}
+.cards .card_element h2 {
+  font-size: 20px;
+  padding-top: 20px;
+}
+.cards .card_element p {
+  font-size: 18px;
+  padding-top: 20px;
+}
+.cards .card_element button {
+  border-color: rgb(153, 150, 150);
+  width: 120px;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.cards .card_element button:hover {
+  color: white;
+  background-color: darkgray;
+}/*# sourceMappingURL=style.css.map */
